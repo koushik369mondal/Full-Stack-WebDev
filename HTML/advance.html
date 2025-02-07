@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advanced HTML tags demonstration">
+    <title>Advanced HTML Tags Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Advanced HTML Tags Example</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website. We provide a variety of services to cater to your needs. Our goal is to <strong>deliver top-notch quality</strong> in everything we do. Check out our <em>latest updates</em>!</p>
+            <p>For additional details, refer to our <mark>highlighted information</mark>.</p>
+            <p>Terms and conditions are available at the end of this page, including <small>fine print</small> and <sup>disclaimers</sup> related to specific services.</p>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We have been in the industry for over <mark>15 years</mark>. Our team of experts specializes in various fields:</p>
+            <ul>
+                <li>Web Design</li>
+                <li>Digital Marketing</li>
+                <li>Content Creation</li>
+            </ul>
+            <p>Our mission is to provide exceptional <strong>customer satisfaction</strong> and innovative solutions.</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Services</h2>
+            <p>We offer a range of services to meet your needs:</p>
+            <ol>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+                <li>SEO Optimization</li>
+                <li>Consulting</li>
+            </ol>
+
+            <h3>Price List</h3>
+            <table border="1">
+                <caption>Our Services and Pricing</caption>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>$600</td>
+                    </tr>
+                    <tr>
+                        <td>Graphic Design</td>
+                        <td>$350</td>
+                    </tr>
+                    <tr>
+                        <td>SEO Optimization</td>
+                        <td>$450</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media">
+            <h2>Gallery</h2>
+            <figure>
+                <img src="image.jpg" alt="Sample Image" width="400">
+                <figcaption>A beautiful view of our project</figcaption>
+            </figure>
+
+            <h2>Video Presentation</h2>
+            <video width="600" controls>
+                <source src="video.mp4" type="video/mp4">
+                <source src="video.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- Details Section -->
+        <section id="details">
+            <h2>Additional Details</h2>
+            <details>
+                <summary>Click to Expand</summary>
+                <p>Here are some more details about our services. We offer tailored solutions to fit your requirements and budget.</p>
+            </details>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Advanced HTML Tags Example. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>,
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </p>
+        <p>Note: All services are subject to <small>terms and conditions</small> and <sup>disclaimer</sup>.<br>
+        <time datetime="2024-09-08T12:00">September 8, 2024, 12:00 PM</time></p>
+    </footer>
+
+</body>
+</html>
